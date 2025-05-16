@@ -27,7 +27,7 @@ pipeline {
               Build URL: ${env.BUILD_URL}
               Logs are attached.
             """,
-            to: 'ianushi97@gmail.com', // Replace with your email
+            to: 'pereraanu804@gmail.com', // Replace with your email
             attachmentsPattern: '**/logs/*.log', // Attach specific logs if needed
             attachLog: true // Attach the full build log
           )
@@ -48,7 +48,7 @@ pipeline {
               Build URL: ${env.BUILD_URL}
               Logs are attached.
             """,
-            to: 'ianushi97@gmail.com', // Replace with your email
+            to: pereraanu804@gmail.com', // Replace with your email
             attachLog: true
           )
         }
@@ -65,7 +65,7 @@ pipeline {
           Build URL: ${env.BUILD_URL}
           Full logs are attached.
         """,
-        to: 'ianushi97@gmail.com',
+        to: 'pereraanu804@gmail.com',
         attachLog: true
       )
     }
