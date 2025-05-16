@@ -48,7 +48,7 @@ pipeline {
               Build URL: ${env.BUILD_URL}
               Logs are attached.
             """,
-            to: pereraanu804@gmail.com', 
+            to: 'pereraanu804@gmail.com', 
             attachLog: true
           )
         }
